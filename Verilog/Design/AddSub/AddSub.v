@@ -1,4 +1,4 @@
-module add_sub_8bit(
+module AddSub(
     input A0, A1, A2, A3,
     input B0, B1, B2, B3,
     input Cin,
