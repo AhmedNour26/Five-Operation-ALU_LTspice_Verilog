@@ -4,6 +4,7 @@ module ALU_tb;
     wire  Zero_F_tb, D_Zero_F_tb, Sign_F_tb;
     wire signed  [7:0] C_tb; 
     wire signed  [7:0] C_exp;
+    integer error_count;
 
     ALU_Gm GM (
         .A(A_tb), .B(B_tb), .Sel(Sel_tb), .Zero_F(Zero_F_tb), .D_Zero_F(D_Zero_F_tb), .Sign_F(Sign_F_tb), .C(C_exp)
@@ -55,6 +56,7 @@ module ALU_tb;
         end
     end
     initial begin
+        error_count = 0;
         A_tb   = 0;
         B_tb   = 0;
         Sel_tb = 0;
@@ -75,6 +77,8 @@ module ALU_tb;
         B_tb   = 0;
         Sel_tb = 4;
         #128; 
+
+        display("Test done with errors %d out of 640 test case",error_count);
         $finish;
     end
     initial begin
@@ -82,6 +86,7 @@ module ALU_tb;
             #1;
             if(C_exp != C_tb)begin
                 $display("error: input: A: %d, B: %d, Sel: %d, Output: out exp: %d found out: %d", A_tb, B_tb, Sel_tb, C_exp, C_tb);
+                error_count++;
             end
         end
     end

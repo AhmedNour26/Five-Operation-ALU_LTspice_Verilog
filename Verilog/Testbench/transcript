@@ -30,3 +30,5 @@
 # Loading work.ALU_Gm(fast)
 # ** Note: $finish    : ALU_tb.v(78)
 #    Time: 640 ns  Iteration: 0  Instance: /ALU_tb
+# End time: 23:26:19 on Dec 24,2025, Elapsed time: 0:31:59
+# Errors: 0, Warnings: 0
