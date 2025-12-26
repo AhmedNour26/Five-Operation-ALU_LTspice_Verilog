@@ -10174,3 +10174,290 @@ do run.do
 #    Time: 640 ns  Iteration: 0  Instance: /ALU_tb
 # 1
 # Break in Module ALU_tb at ALU_tb.v line 83
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:16:00 on Dec 26,2025
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module mux21
+# -- Compiling module mux41
+# -- Compiling module full_adder
+# -- Compiling module block1_mod
+# -- Compiling module selectors
+# -- Compiling module sign_mux
+# -- Compiling module shifting_circuit
+# -- Compiling module Reminder_b
+# -- Compiling module AddSub
+# -- Compiling module multiplier
+# -- Compiling module Modulus
+# -- Compiling module ASR
+# -- Compiling module ALU_tb
+# -- Compiling module ALU_Gm
+# -- Compiling module ALU_top
+# 
+# Top level modules:
+# 	ALU_tb
+# End time: 17:16:00 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:16:02 on Dec 26,2025, Elapsed time: 0:55:55
+# Errors: 0, Warnings: 35
+# vsim -voptargs="+acc" work.ALU_tb 
+# Start time: 17:16:02 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ALU_tb(fast)
+# Loading work.ALU_Gm(fast)
+# Loading work.ALU_top(fast)
+# Loading work.AddSub(fast)
+# Loading work.full_adder(fast)
+# Loading work.full_adder(fast__1)
+# Loading work.multiplier(fast)
+# Loading work.full_adder(fast__2)
+# Loading work.full_adder(fast__3)
+# Loading work.full_adder(fast__4)
+# Loading work.full_adder(fast__5)
+# Loading work.full_adder(fast__6)
+# Loading work.full_adder(fast__7)
+# Loading work.Modulus(fast)
+# Loading work.sign_mux(fast)
+# Loading work.AddSub(fast__1)
+# Loading work.mux21(fast)
+# Loading work.Reminder_b(fast)
+# Loading work.block1_mod(fast)
+# Loading work.mux21(fast__1)
+# Loading work.block1_mod(fast__1)
+# Loading work.mux21(fast__2)
+# Loading work.block1_mod(fast__2)
+# Loading work.sign_mux(fast__1)
+# Loading work.AddSub(fast__2)
+# Loading work.mux21(fast__3)
+# Loading work.mux21(fast__4)
+# Loading work.ASR(fast)
+# Loading work.selectors(fast)
+# Loading work.shifting_circuit(fast)
+# Loading work.mux41(fast)
+# Loading work.mux21(fast__5)
+# Loading work.mux21(fast__6)
+# Loading work.mux41(fast__1)
+# Loading work.mux21(fast__7)
+# Loading work.mux41(fast__2)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa13 File: Mult.v Line: 54
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa34 File: Mult.v Line: 66
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa34 File: Mult.v Line: 66
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x4 File: Reminder_b.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x3 File: Reminder_b.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x2 File: Reminder_b.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x1 File: Reminder_b.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x9 File: Reminder_b.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x13 File: Reminder_b.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x17 File: Reminder_b.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x5 File: Modulus.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x6 File: Modulus.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x7 File: Modulus.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x8 File: Modulus.v Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst4 File: ALU_top.v Line: 48
+# Test done with           0 errors out of 640 test case
+# ** Note: $finish    : ALU_tb.v(84)
+#    Time: 642 ns  Iteration: 0  Instance: /ALU_tb
+# 1
+# Break in Module ALU_tb at ALU_tb.v line 84
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:17:03 on Dec 26,2025
+# vlog -reportprogress 300 -f src_files.list 
+# -- Compiling module mux21
+# -- Compiling module mux41
+# -- Compiling module full_adder
+# -- Compiling module block1_mod
+# -- Compiling module selectors
+# -- Compiling module sign_mux
+# -- Compiling module shifting_circuit
+# -- Compiling module Reminder_b
+# -- Compiling module AddSub
+# -- Compiling module multiplier
+# -- Compiling module Modulus
+# -- Compiling module ASR
+# -- Compiling module ALU_tb
+# -- Compiling module ALU_Gm
+# -- Compiling module ALU_top
+# 
+# Top level modules:
+# 	ALU_tb
+# End time: 17:17:03 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:17:05 on Dec 26,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 35
+# vsim -voptargs="+acc" work.ALU_tb 
+# Start time: 17:17:05 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ALU_tb(fast)
+# Loading work.ALU_Gm(fast)
+# Loading work.ALU_top(fast)
+# Loading work.AddSub(fast)
+# Loading work.full_adder(fast)
+# Loading work.full_adder(fast__1)
+# Loading work.multiplier(fast)
+# Loading work.full_adder(fast__2)
+# Loading work.full_adder(fast__3)
+# Loading work.full_adder(fast__4)
+# Loading work.full_adder(fast__5)
+# Loading work.full_adder(fast__6)
+# Loading work.full_adder(fast__7)
+# Loading work.Modulus(fast)
+# Loading work.sign_mux(fast)
+# Loading work.AddSub(fast__1)
+# Loading work.mux21(fast)
+# Loading work.Reminder_b(fast)
+# Loading work.block1_mod(fast)
+# Loading work.mux21(fast__1)
+# Loading work.block1_mod(fast__1)
+# Loading work.mux21(fast__2)
+# Loading work.block1_mod(fast__2)
+# Loading work.sign_mux(fast__1)
+# Loading work.AddSub(fast__2)
+# Loading work.mux21(fast__3)
+# Loading work.mux21(fast__4)
+# Loading work.ASR(fast)
+# Loading work.selectors(fast)
+# Loading work.shifting_circuit(fast)
+# Loading work.mux41(fast)
+# Loading work.mux21(fast__5)
+# Loading work.mux21(fast__6)
+# Loading work.mux41(fast__1)
+# Loading work.mux21(fast__7)
+# Loading work.mux41(fast__2)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa13 File: Mult.v Line: 54
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa34 File: Mult.v Line: 66
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: full_adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst1/fa34 File: Mult.v Line: 66
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x2/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x3/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x4 File: Reminder_b.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x3 File: Reminder_b.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x2 File: Reminder_b.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x1 File: Reminder_b.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x9 File: Reminder_b.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x13 File: Reminder_b.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: block1_mod.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x1/x17 File: Reminder_b.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x4/x1 File: sign_mux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x5 File: Modulus.v Line: 38
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x6 File: Modulus.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x7 File: Modulus.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x8 File: Modulus.v Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B0'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B1'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B2'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'B3'. The port definition is at: AddSub.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Cin'. The port definition is at: AddSub.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst2/x13 File: Modulus.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'A'. The port definition is at: mux21.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ALU_tb/DUT/inst4 File: ALU_top.v Line: 48
+# Test done with           0 errors out of 640 test case
+# ** Note: $finish    : ALU_tb.v(83)
+#    Time: 640 ns  Iteration: 0  Instance: /ALU_tb
+# 1
+# Break in Module ALU_tb at ALU_tb.v line 83
+quit -sim
+# End time: 18:14:58 on Dec 26,2025, Elapsed time: 0:57:53
+# Errors: 0, Warnings: 35

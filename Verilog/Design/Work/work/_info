@@ -28,6 +28,8 @@ R0
 R0
 R0
 R0
+R0
+R0
 !s11f MIXED_VERSIONS
 13
 !s112 1.1
@@ -37,17 +39,17 @@ R0
 cModel Technology
 Z1 dD:/Electronics_circ_p/mat/Five-Operation-ALU_LTspice_Verilog/Verilog/Design/Work
 T_opt
-!s110 1766758808
-VQbm2ED8W1F[^JIJ^Ga0VK3
+!s110 1766762225
+V_>_z:HZS;__JMfUzP:Qzc1
 04 6 4 work ALU_tb fast 0
-=1-e88088df5efe-694e9997-3e1-6b5c
+=1-e88088df5efe-694ea6f1-2aa-5240
 !s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 OL;O;2021.1;73
 vAddSub
-Z3 !s110 1766758804
+Z3 !s110 1766762223
 !i10b 1
 !s100 a44jQ;lgAYS5Z8LTi;Jk00
 IQe`h9Z_MhaDcGN7VBc:OC3
@@ -55,14 +57,14 @@ R1
 w1766623912
 8AddSub.v
 FAddSub.v
-!i122 46
+!i122 48
 Z4 L0 1 29
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z7 !s108 1766758804.000000
+Z7 !s108 1766762223.000000
 Z8 !s107 ALU_top.v|ALU_Gm.v|ALU_tb.v|ASR.v|Modulus.v|Mult.v|AddSub.v|Reminder_b.v|shifting_circuit.v|sign_mux.v|selector.v|block1_mod.v|full_adder.v|mux41.v|mux21.v|
 Z9 !s90 -reportprogress|300|-f|src_files.list|
 !i113 0
@@ -72,13 +74,13 @@ n@add@sub
 vALU_Gm
 R3
 !i10b 1
-!s100 Kdz3?ZoL<JjbfmBFUMS9R2
-ImQm0P>:cICYgPbckf5K000
+!s100 aA]UX2=HKRgk15kYi9E><1
+I97I2Fb^O;a0^ck^dln@cM3
 R1
-w1766757695
+w1766760295
 8ALU_Gm.v
 FALU_Gm.v
-!i122 46
+!i122 48
 R4
 R5
 R6
@@ -98,10 +100,10 @@ R3
 !s100 fKlkRjUeR7Yefg1gUoFJD0
 IaMH3EX@Q7=ZbYdB0^zzee1
 R1
-w1766758802
+w1766762219
 8ALU_tb.v
 FALU_tb.v
-!i122 46
+!i122 48
 L0 1 97
 R5
 R6
@@ -124,7 +126,7 @@ R1
 w1766758728
 8ALU_top.v
 FALU_top.v
-!i122 46
+!i122 48
 L0 1 61
 R5
 R6
@@ -147,7 +149,7 @@ R1
 w1766758169
 8ASR.v
 FASR.v
-!i122 46
+!i122 48
 L0 1 17
 R5
 R6
@@ -170,7 +172,7 @@ R1
 w1766746985
 8block1_mod.v
 Fblock1_mod.v
-!i122 46
+!i122 48
 L0 1 20
 R5
 R6
@@ -192,7 +194,7 @@ R1
 w1766618825
 8full_adder.v
 Ffull_adder.v
-!i122 46
+!i122 48
 L0 1 12
 R5
 R6
@@ -214,7 +216,7 @@ R1
 w1766750383
 8Modulus.v
 FModulus.v
-!i122 46
+!i122 48
 L0 1 82
 R5
 R6
@@ -237,7 +239,7 @@ R1
 w1766757597
 8Mult.v
 FMult.v
-!i122 46
+!i122 48
 L0 1 68
 R5
 R6
@@ -259,7 +261,7 @@ R1
 w1766609711
 8mux21.v
 Fmux21.v
-!i122 46
+!i122 48
 L0 1 10
 R5
 R6
@@ -281,7 +283,7 @@ R1
 w1766749201
 8mux41.v
 Fmux41.v
-!i122 46
+!i122 48
 L0 1 9
 R5
 R6
@@ -303,7 +305,7 @@ R1
 w1766751502
 8Reminder_b.v
 FReminder_b.v
-!i122 46
+!i122 48
 L0 1 30
 R5
 R6
@@ -326,7 +328,7 @@ R1
 w1766758174
 8selector.v
 Fselector.v
-!i122 46
+!i122 48
 L0 1 13
 R5
 R6
@@ -348,7 +350,7 @@ R1
 w1766758176
 8shifting_circuit.v
 Fshifting_circuit.v
-!i122 46
+!i122 48
 L0 1 52
 R5
 R6
@@ -370,7 +372,7 @@ R1
 w1766750366
 8sign_mux.v
 Fsign_mux.v
-!i122 46
+!i122 48
 L0 1 24
 R5
 R6
