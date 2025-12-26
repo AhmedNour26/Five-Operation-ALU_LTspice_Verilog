@@ -1,0 +1,385 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Electronics_circ_p/mat/Five-Operation-ALU_LTspice_Verilog/Verilog/Design/Work
+T_opt
+!s110 1766758808
+VQbm2ED8W1F[^JIJ^Ga0VK3
+04 6 4 work ALU_tb fast 0
+=1-e88088df5efe-694e9997-3e1-6b5c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vAddSub
+Z3 !s110 1766758804
+!i10b 1
+!s100 a44jQ;lgAYS5Z8LTi;Jk00
+IQe`h9Z_MhaDcGN7VBc:OC3
+R1
+w1766623912
+8AddSub.v
+FAddSub.v
+!i122 46
+Z4 L0 1 29
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1766758804.000000
+Z8 !s107 ALU_top.v|ALU_Gm.v|ALU_tb.v|ASR.v|Modulus.v|Mult.v|AddSub.v|Reminder_b.v|shifting_circuit.v|sign_mux.v|selector.v|block1_mod.v|full_adder.v|mux41.v|mux21.v|
+Z9 !s90 -reportprogress|300|-f|src_files.list|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@add@sub
+vALU_Gm
+R3
+!i10b 1
+!s100 Kdz3?ZoL<JjbfmBFUMS9R2
+ImQm0P>:cICYgPbckf5K000
+R1
+w1766757695
+8ALU_Gm.v
+FALU_Gm.v
+!i122 46
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@a@l@u_@gm
+vALU_tb
+R3
+!i10b 1
+!s100 fKlkRjUeR7Yefg1gUoFJD0
+IaMH3EX@Q7=ZbYdB0^zzee1
+R1
+w1766758802
+8ALU_tb.v
+FALU_tb.v
+!i122 46
+L0 1 97
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@a@l@u_tb
+vALU_top
+R3
+!i10b 1
+!s100 i?XIog;GF^H?=Mi=I4`0D0
+IV^a1mezVd;Yf<jEG`T=?T2
+R1
+w1766758728
+8ALU_top.v
+FALU_top.v
+!i122 46
+L0 1 61
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@a@l@u_top
+vASR
+R3
+!i10b 1
+!s100 JfcFak_mCXZ=95_WXY=hD1
+Igk`DPH@WFo:NDR:adR[]h3
+R1
+w1766758169
+8ASR.v
+FASR.v
+!i122 46
+L0 1 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@a@s@r
+vblock1_mod
+R3
+!i10b 1
+!s100 Xb;N6kLfOdZjLCocNUH501
+INAK8aNU<naR@=6N5?Y;??2
+R1
+w1766746985
+8block1_mod.v
+Fblock1_mod.v
+!i122 46
+L0 1 20
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vfull_adder
+R3
+!i10b 1
+!s100 eIVf22R5_FHhU8lXBYOX<2
+IM^42m5OEAnT97@PF3OL0B3
+R1
+w1766618825
+8full_adder.v
+Ffull_adder.v
+!i122 46
+L0 1 12
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vModulus
+R3
+!i10b 1
+!s100 ^Bj>7baAF`z^Q[mTB`VEA3
+IJJEciW6hZ9<:B7kH?31;`3
+R1
+w1766750383
+8Modulus.v
+FModulus.v
+!i122 46
+L0 1 82
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@modulus
+vmultiplier
+R3
+!i10b 1
+!s100 ?@@jLE6MgYzVmJH0BzlZW1
+IB]z^;[V_DOLjEo[:idGf=2
+R1
+w1766757597
+8Mult.v
+FMult.v
+!i122 46
+L0 1 68
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vmux21
+R3
+!i10b 1
+!s100 _X=NzGNFV=hRa13jA[cRW0
+I^g1:Pz>`=zJ@C8]0ZZ3Ce2
+R1
+w1766609711
+8mux21.v
+Fmux21.v
+!i122 46
+L0 1 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vmux41
+R3
+!i10b 1
+!s100 HMA0dB655n`XaZ@O;ZP5Q2
+IC4neLiQd9dSnF0[5z^KFH1
+R1
+w1766749201
+8mux41.v
+Fmux41.v
+!i122 46
+L0 1 9
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vReminder_b
+R3
+!i10b 1
+!s100 TBaiXoK9M1_94VflLodWG3
+I9O?jm4MKceh4;_?NzZJVF1
+R1
+w1766751502
+8Reminder_b.v
+FReminder_b.v
+!i122 46
+L0 1 30
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+n@reminder_b
+vselectors
+R3
+!i10b 1
+!s100 e4<Y2M_h>T1[9<^>3`Vz?3
+I:C;LHzcX5li=TU<E@`<4S3
+R1
+w1766758174
+8selector.v
+Fselector.v
+!i122 46
+L0 1 13
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vshifting_circuit
+R3
+!i10b 1
+!s100 A@P0d>GT2PW__P76DlA9A3
+IaL3O=IJ6`3gMV6@`EXfi;0
+R1
+w1766758176
+8shifting_circuit.v
+Fshifting_circuit.v
+!i122 46
+L0 1 52
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vsign_mux
+R3
+!i10b 1
+!s100 BX]<lBl`QlMn[=lHlDRei2
+I:XYAV;DKJBV;EeKoja>z81
+R1
+w1766750366
+8sign_mux.v
+Fsign_mux.v
+!i122 46
+L0 1 24
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
